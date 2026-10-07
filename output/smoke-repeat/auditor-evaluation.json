@@ -1,0 +1,4384 @@
+{
+  "schemaVersion": 1,
+  "receiptType": "auditor-evaluation",
+  "experimentId": "mnemorph-35b6497ce238cb07942074d8c161fe93e99e123ad9a9a33fc5622dcad373de9f",
+  "status": "completed",
+  "auditorRows": [
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.08653866666666664,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02609650026666667,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 101,
+      "seedBlockIndex": 0,
+      "lineageId": "lineage-101",
+      "initialSnapshotHash": "e3ae00d01a4ae3c6bf05b94077a21c712853b476037562b5c5a27c2f28cbb710",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-06aa38656701b451",
+        "operations": [
+          {
+            "type": "lesion",
+            "armId": "treatment",
+            "region": "head",
+            "fraction": 0.25,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 101,
+      "seedBlockIndex": 1,
+      "lineageId": "lineage-101",
+      "initialSnapshotHash": "d509e6fa953db2c87087ffa090359d7f8dcd230d9908b52c4a92244392188fa9",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 101,
+      "seedBlockIndex": 2,
+      "lineageId": "lineage-101",
+      "initialSnapshotHash": "f5f03a42cd1ab195a2e3d3fb6c1bc6f8f751687bde06cc6d86412318ca18136c",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-656542cf6e3bae8c",
+        "operations": [
+          {
+            "type": "regrow",
+            "armId": "treatment",
+            "ticks": 2,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 101,
+      "seedBlockIndex": 3,
+      "lineageId": "lineage-101",
+      "initialSnapshotHash": "39270bf5b9a16cbaffcdb5b5830bf430c006eadf829311c3920117b50de44927",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-9d278b42905da149",
+        "operations": [
+          {
+            "type": "context-shift",
+            "armId": "treatment",
+            "cueToAction": [
+              1,
+              0
+            ],
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 101,
+      "seedBlockIndex": 4,
+      "lineageId": "lineage-101",
+      "initialSnapshotHash": "532c33fb3dbe9b28e8a6777211649a968ab58133ddc84960fc463f124d725800",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-101-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.03247721075557044,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.030641601552512082,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.03247721075557044,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.030641601552512082,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.03247721075557044,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.030641601552512082,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.03247721075557044,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.030641601552512082,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.03247721075557044,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.030641601552512082,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.0140229732006117,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.025821224720707928,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.0140229732006117,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.025821224720707928,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.0140229732006117,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.025821224720707928,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.0140229732006117,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.025821224720707928,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.0140229732006117,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.025821224720707928,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.10348731230517354,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.04013050410971212,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.10348731230517354,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.04013050410971212,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.10348731230517354,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.04013050410971212,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.10348731230517354,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.04013050410971212,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.10348731230517354,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.04013050410971212,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011405965907984405,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024837641199955962,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 202,
+      "seedBlockIndex": 5,
+      "lineageId": "lineage-202",
+      "initialSnapshotHash": "dd50a00a9737809e193ff3c656024b05dfa4bf63c199fc95c111b2133a8082a2",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-06aa38656701b451",
+        "operations": [
+          {
+            "type": "lesion",
+            "armId": "treatment",
+            "region": "head",
+            "fraction": 0.25,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 202,
+      "seedBlockIndex": 6,
+      "lineageId": "lineage-202",
+      "initialSnapshotHash": "d916221ad1fb3aa8f479d5520fb20fc690c329f78a9ef3da6d23b746b4cd53a0",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 202,
+      "seedBlockIndex": 7,
+      "lineageId": "lineage-202",
+      "initialSnapshotHash": "e353437fd380f1cff79faa23dbf5a0305706a602b8b80b1c5f65e08d82be4dd0",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-656542cf6e3bae8c",
+        "operations": [
+          {
+            "type": "regrow",
+            "armId": "treatment",
+            "ticks": 2,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 202,
+      "seedBlockIndex": 8,
+      "lineageId": "lineage-202",
+      "initialSnapshotHash": "06feee47e8b93cab78369cf0a42b71abf99b4ac9f19e0829ed0e4e34a879355a",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-9d278b42905da149",
+        "operations": [
+          {
+            "type": "context-shift",
+            "armId": "treatment",
+            "cueToAction": [
+              1,
+              0
+            ],
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 202,
+      "seedBlockIndex": 9,
+      "lineageId": "lineage-202",
+      "initialSnapshotHash": "520a395965406fd95a93de5e2143594726233d00e076c3993218471dbde6056e",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-202-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01102917475073971,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.023256045872856804,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01102917475073971,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.023256045872856804,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01102917475073971,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.023256045872856804,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01102917475073971,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.023256045872856804,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01102917475073971,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.023256045872856804,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01090521592844561,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024360197508205967,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01090521592844561,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024360197508205967,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01090521592844561,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024360197508205967,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01090521592844561,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024360197508205967,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.01090521592844561,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.024360197508205967,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.043021416504157695,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.027773595707699716,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.043021416504157695,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.027773595707699716,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.043021416504157695,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.027773595707699716,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.043021416504157695,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.027773595707699716,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.043021416504157695,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.027773595707699716,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011298169942250443,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.019694194271532288,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 303,
+      "seedBlockIndex": 10,
+      "lineageId": "lineage-303",
+      "initialSnapshotHash": "042409fb64ebe3a18968f598821c47d437cf711a6177200a343ef90ba871326e",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-06aa38656701b451",
+        "operations": [
+          {
+            "type": "lesion",
+            "armId": "treatment",
+            "region": "head",
+            "fraction": 0.25,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 303,
+      "seedBlockIndex": 11,
+      "lineageId": "lineage-303",
+      "initialSnapshotHash": "7f21a871cbc07dff0eebbb7a1b8ab0f09822acef58e6fd202c4367315a70f3cc",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 303,
+      "seedBlockIndex": 12,
+      "lineageId": "lineage-303",
+      "initialSnapshotHash": "65efe388e4ad032d6c887430fb847d0e347cbe2f5b014169e90089a8bdc31867",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-656542cf6e3bae8c",
+        "operations": [
+          {
+            "type": "regrow",
+            "armId": "treatment",
+            "ticks": 2,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 303,
+      "seedBlockIndex": 13,
+      "lineageId": "lineage-303",
+      "initialSnapshotHash": "ff46b52a3080fcc035cf324ba8626d0bcefe4a74810b050f885638285e400400",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-9d278b42905da149",
+        "operations": [
+          {
+            "type": "context-shift",
+            "armId": "treatment",
+            "cueToAction": [
+              1,
+              0
+            ],
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 303,
+      "seedBlockIndex": 14,
+      "lineageId": "lineage-303",
+      "initialSnapshotHash": "8c8099ffaf08e39ac41804d424eb066058e10e27c4b8111231674bca048c3a02",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-303-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010352922201512467,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022221288239504856,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010352922201512467,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022221288239504856,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010352922201512467,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022221288239504856,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010352922201512467,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022221288239504856,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-one-factor",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010352922201512467,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022221288239504856,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010676070070249887,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02421957520194028,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010676070070249887,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02421957520194028,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010676070070249887,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02421957520194028,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010676070070249887,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02421957520194028,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "fixed-factorial",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010676070070249887,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.02421957520194028,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011612589136847594,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022150120029627515,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011612589136847594,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022150120029627515,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011612589136847594,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022150120029627515,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011612589136847594,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022150120029627515,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "random-equal-budget",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.011612589136847594,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.022150120029627515,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "frozen-grammar-information-gain",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "adaptive-revisable-grammar",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "selectedCategory": "retained",
+      "withheldEvaluations": [
+        {
+          "programId": "withheld-context-transfer",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.010773793240901245,
+          "predictionWasFrozen": true
+        },
+        {
+          "programId": "withheld-lesion-regrow",
+          "status": "completed",
+          "observedCategory": "retained",
+          "brierScore": 0.018405745037705205,
+          "predictionWasFrozen": true
+        }
+      ]
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 404,
+      "seedBlockIndex": 15,
+      "lineageId": "lineage-404",
+      "initialSnapshotHash": "4eb296e768203165e955a845abf4bab590e23ae2d61320028eeda349ff118332",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-06aa38656701b451",
+        "operations": [
+          {
+            "type": "lesion",
+            "armId": "treatment",
+            "region": "head",
+            "fraction": 0.25,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "local-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "local-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "local-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 404,
+      "seedBlockIndex": 16,
+      "lineageId": "lineage-404",
+      "initialSnapshotHash": "d264a03bd089470d6097b722c0c6dbf74f9323b38aaf2fdca25263b0cb865214",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "distributed-trace",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "distributed-trace",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "distributed-trace",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 404,
+      "seedBlockIndex": 17,
+      "lineageId": "lineage-404",
+      "initialSnapshotHash": "c825175f51bcc44bc0edcbabd93b02eb26cf29326dd6c041b1acb31420f23503",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-656542cf6e3bae8c",
+        "operations": [
+          {
+            "type": "regrow",
+            "armId": "treatment",
+            "ticks": 2,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "regenerative-reconstruction",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "regenerative-reconstruction",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "regenerative-reconstruction",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 404,
+      "seedBlockIndex": 18,
+      "lineageId": "lineage-404",
+      "initialSnapshotHash": "42c097b55b388bd1f2661a29a12a255d88b49d457f7ab3badadc6c8300f737d3",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-9d278b42905da149",
+        "operations": [
+          {
+            "type": "context-shift",
+            "armId": "treatment",
+            "cueToAction": [
+              1,
+              0
+            ],
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "readout-adaptation",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "readout-adaptation",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "readout-adaptation",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    },
+    {
+      "methodId": "oracle-only-diagnostic",
+      "masterSeed": 404,
+      "seedBlockIndex": 19,
+      "lineageId": "lineage-404",
+      "initialSnapshotHash": "fdbcb0bbcc993591426f5ac9e023d00f66d298c73aabebbb82a75d1b0aca2e3d",
+      "budget": {
+        "assayCount": 1,
+        "candidateEvaluations": 8,
+        "protocolLengthCap": 4,
+        "candidateEvaluationsUsed": 8
+      },
+      "selectedProgram": {
+        "programId": "candidate-ba59ed93bad83d49",
+        "operations": [
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          },
+          {
+            "type": "scramble",
+            "armId": "treatment",
+            "region": "body",
+            "channel": "trace",
+            "intensity": 0.5,
+            "atTick": 0
+          }
+        ]
+      },
+      "status": "completed",
+      "selectedCategory": "retained",
+      "mechanismId": "context-gated",
+      "auditorRecord": {
+        "subjectId": "subject-404-development-rule-v1",
+        "mechanismId": "context-gated",
+        "ruleId": "development-rule-v1",
+        "recipe": [
+          {
+            "family": "context-gated",
+            "weight": 1
+          }
+        ]
+      },
+      "oracleDiagnostic": true
+    }
+  ]
+}

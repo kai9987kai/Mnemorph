@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "name": "mnemorph-smoke-v1",
+  "runConfig": {
+    "gridWidth": 12,
+    "gridHeight": 8,
+    "cueToAction": [0, 1],
+    "rewardNoise": 0.05,
+    "trainingEpisodes": 256,
+    "maxTicks": 10000,
+    "seedBlockCount": 4,
+    "branchCount": 2,
+    "protocolLengthCap": 4,
+    "candidateEvaluationsPerBatch": 8,
+    "measurementTrials": 8,
+    "preflightAccuracy": 0.7,
+    "retainedAccuracy": 0.75,
+    "partialAccuracy": 0.55,
+    "runLabel": "smoke"
+  },
+  "masterSeeds": [101, 202, 303, 404],
+  "familyIds": [
+    "local-trace",
+    "distributed-trace",
+    "regenerative-reconstruction",
+    "readout-adaptation",
+    "context-gated"
+  ],
+  "methods": [
+    "fixed-one-factor",
+    "fixed-factorial",
+    "random-equal-budget",
+    "frozen-grammar-information-gain",
+    "adaptive-revisable-grammar",
+    "oracle-only-diagnostic"
+  ],
+  "withheldPrograms": [
+    {
+      "programId": "withheld-context-transfer",
+      "operations": [
+        { "type": "context-shift", "armId": "treatment", "cueToAction": [1, 0], "atTick": 0 }
+      ]
+    },
+    {
+      "programId": "withheld-lesion-regrow",
+      "operations": [
+        { "type": "lesion", "armId": "treatment", "region": "body", "fraction": 0.25, "atTick": 0 },
+        { "type": "regrow", "armId": "treatment", "ticks": 2, "atTick": 0 }
+      ]
+    }
+  ]
+}

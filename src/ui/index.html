@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101418">
+    <title>Mnemorph · Memory Archaeology Lab</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/src/ui/styles.css">
+    <script type="module" src="/src/ui/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Mnemorph home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span><strong>MNEMORPH</strong><small>MEMORY ARCHAEOLOGY LAB</small></span>
+      </a>
+      <div class="lab-status"><span class="status-dot"></span><span id="connection-status">LOCAL SIMULATOR</span></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">A SYNTHETIC CAUSAL ASSAY WORKBENCH</p>
+          <h1>What survives<br><em>when tissue changes?</em></h1>
+          <p class="hero-copy">Intervene, regenerate, and test transfer. Mnemorph compares competing explanations for persistent behavior using matched, replayable experiments.</p>
+        </div>
+        <div class="model-stamp"><span class="stamp-icon">⌁</span><div><strong>SIMULATED SUBJECTS</strong><small>No biological or clinical claims</small></div></div>
+      </section>
+
+      <section class="panel run-panel" aria-labelledby="run-heading">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / EXPERIMENT</p><h2 id="run-heading">Configure a run</h2></div>
+          <span class="pill">BOUNDED · REPRODUCIBLE</span>
+        </div>
+        <div class="run-controls">
+          <div class="config-card">
+            <div class="config-icon" aria-hidden="true">⌘</div>
+            <div class="config-meta"><strong id="config-name">Loading smoke configuration…</strong><span id="config-summary">Waiting for the local configuration endpoint</span></div>
+            <label class="button secondary file-button" for="config-file">Load config</label>
+            <input id="config-file" type="file" accept="application/json,.json" aria-label="Load a benchmark configuration">
+          </div>
+          <div class="action-row">
+            <button id="start-button" class="button primary" type="button" disabled><span aria-hidden="true">▶</span> Start experiment</button>
+            <button id="cancel-button" class="button danger" type="button" disabled>Cancel run</button>
+            <div class="progress-wrap"><progress id="run-progress" max="1" value="0" aria-label="Experiment seed-block progress"></progress><span id="run-status" role="status" aria-live="polite">Loading local configuration…</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="workspace-grid">
+        <section class="panel subject-panel" aria-labelledby="subject-heading">
+          <div class="section-heading compact">
+            <div><p class="eyebrow">02 / SUBJECT STATE</p><h2 id="subject-heading">Tissue map</h2></div>
+            <span class="micro-label" id="subject-meta">AWAITING RUN</span>
+          </div>
+          <div class="map-controls">
+            <label for="snapshot-select">Snapshot</label>
+            <select id="snapshot-select" aria-label="Choose a subject snapshot"><option value="">No snapshots</option></select>
+            <label for="region-select">Region</label>
+            <select id="region-select" aria-label="Highlight a tissue region">
+              <option value="all">All regions</option><option value="head">Head</option><option value="body">Body</option>
+              <option value="wound-border">Wound border</option><option value="tail">Tail</option>
+            </select>
+            <label for="channel-select">Channel</label>
+            <select id="channel-select" aria-label="Inspect a tissue channel">
+              <option value="voltage">Voltage</option><option value="trace">Trace</option><option value="plasticity">Plasticity</option>
+            </select>
+          </div>
+          <div id="subject-grid" class="subject-grid empty-state">A completed run will add replayable subject snapshots here.</div>
+          <p id="cell-detail" class="cell-detail" aria-live="polite">Select a cell to inspect its local state.</p>
+          <div class="legend"><span><i class="legend-dot head"></i>Head</span><span><i class="legend-dot body"></i>Body</span><span><i class="legend-dot border"></i>Wound border</span><span><i class="legend-dot tail"></i>Tail</span></div>
+        </section>
+
+        <section class="panel assay-panel" aria-labelledby="assay-heading">
+          <div class="section-heading compact">
+            <div><p class="eyebrow">03 / ASSAY INSPECTOR</p><h2 id="assay-heading">Protocol &amp; prediction</h2></div>
+            <span class="pill subtle" id="claim-badge">NO RESULT</span>
+          </div>
+          <div class="assay-controls">
+            <label for="method-select">Method</label><select id="method-select" aria-label="Choose an experiment method"><option value="">No method rows</option></select>
+            <label for="block-select">Seed block</label><select id="block-select" aria-label="Choose a seed block"><option value="">No seed blocks</option></select>
+          </div>
+          <div class="protocol-box">
+            <div class="subheading"><span>ORDERED OPERATIONS</span><span id="protocol-cost">—</span></div>
+            <ol id="protocol-list" class="protocol-list"><li class="muted">Protocol details appear after a run.</li></ol>
+          </div>
+          <div class="hypothesis-box">
+            <div class="subheading"><span>PRE-RUN HYPOTHESES</span><span>FROZEN BEFORE OUTCOME</span></div>
+            <div id="hypothesis-board" class="hypothesis-board"><p class="muted">Prediction distributions appear here.</p></div>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel outcomes-panel" aria-labelledby="outcomes-heading">
+        <div class="section-heading compact">
+          <div><p class="eyebrow">04 / PAIRED OUTCOMES</p><h2 id="outcomes-heading">Retention after intervention</h2></div>
+          <p class="micro-label">INTACT → REGENERATED → TRANSFER</p>
+        </div>
+        <div id="outcome-chart" class="outcome-chart empty-state">Run an experiment to compare outcome categories across methods.</div>
+        <div class="table-scroll"><table class="outcome-table"><thead><tr><th>Method</th><th>Seed</th><th>Status</th><th>After regeneration</th><th>Transfer context</th></tr></thead><tbody id="outcome-rows"><tr><td colspan="5" class="muted">No outcomes yet.</td></tr></tbody></table></div>
+      </section>
+
+      <section class="panel ledger-panel" aria-labelledby="ledger-heading">
+        <div class="section-heading compact">
+          <div><p class="eyebrow">05 / RECEIPT LEDGER</p><h2 id="ledger-heading">Runs &amp; replay</h2></div>
+          <div class="ledger-actions">
+            <label class="button secondary file-button" for="receipt-file">Import receipt</label>
+            <input id="receipt-file" type="file" accept="application/json,.json" aria-label="Import a public experiment receipt">
+            <button id="export-json-button" class="button secondary" type="button" disabled>Export JSON</button>
+            <button id="export-csv-button" class="button secondary" type="button" disabled>Export raw CSV</button>
+            <button id="clear-button" class="button quiet" type="button" disabled>Clear ledger</button>
+          </div>
+        </div>
+        <div class="ledger-grid">
+          <div class="ledger-list-wrap">
+            <label for="ledger-search" class="search-label">Search receipts, methods, protocols, or status</label>
+            <input id="ledger-search" type="search" placeholder="Search the local ledger…" aria-label="Search experiment receipts">
+            <div id="receipt-ledger" class="receipt-ledger"><p class="muted">No receipts yet. Completed runs and imported receipts remain local to this browser session.</p></div>
+          </div>
+          <div class="replay-card">
+            <div class="subheading"><span>EXACT REPLAY</span><span class="micro-label">SAVED SNAPSHOT + SEED</span></div>
+            <p id="replay-status" class="muted">Choose a method and seed block, then replay its saved protocol.</p>
+            <button id="replay-button" class="button secondary" type="button" disabled>Replay selected assay</button>
+          </div>
+        </div>
+        <p id="app-message" class="app-message" role="status" aria-live="polite"></p>
+      </section>
+
+      <footer><span>MNEMORPH · V0 RESEARCH PLATFORM</span><span>Local synthetic model · Raw outcomes retained · Import checks SHA-256</span></footer>
+    </main>
+  </body>
+</html>

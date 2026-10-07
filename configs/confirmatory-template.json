@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "locked": false,
+  "lockState": "pilot-required",
+  "alpha": 0.05,
+  "targetPower": 0.8,
+  "maxSeedBlocks": 256,
+  "requiredSeedBlocks": null,
+  "seedBlockCount": null,
+  "pilotSeeds": [],
+  "confirmatorySeeds": [],
+  "pilotRuleFamilyIds": [],
+  "confirmatoryRuleFamilyIds": [],
+  "stoppingRule": "fixed-n-no-peeking",
+  "primaryComparison": {
+    "methodA": "adaptive-revisable-grammar",
+    "methodB": "frozen-grammar-information-gain",
+    "metric": "brier",
+    "difference": "methodA-minus-methodB"
+  },
+  "budgets": {
+    "assayCount": 1,
+    "candidateEvaluationsPerBatch": 64,
+    "protocolLengthCap": 4
+  },
+  "withheldAssayHash": "REPLACE_WITH_SHA256_OF_FROZEN_WITHHELD_ASSAY",
+  "heldOutRuleFamilies": [],
+  "transferContexts": [],
+  "nullClaimRateMax": 0.05,
+  "thresholds": {
+    "maxCalibrationBrier": null
+  },
+  "instructions": "Run an exploratory pilot first. Then freeze disjoint pilot and confirmatory seeds and rule families, a pilot-derived fixed seed count no greater than 256, the withheld-assay SHA-256, held-out rule families, transfer contexts, budgets, stopping rule, null bound, and calibration threshold. Copy this file to a separate locked plan, replace every placeholder, and set locked to true before confirmatory execution. This file is not a benchmark config and is intentionally rejected by the benchmark runner because it has no runConfig, masterSeeds, or familyIds. The current runner does not execute a confirmatory plan."
+}

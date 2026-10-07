@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "ablations": [
+    { "id": "freeze_grammar", "disabledFeatures": ["grammarRevision"], "purpose": "Measure the contribution of grammar revision while retaining adaptive selection." },
+    { "id": "freeze_hypothesis_updates", "disabledFeatures": ["hypothesisUpdates"], "purpose": "Measure the contribution of updating predictions from completed public assays." },
+    { "id": "random_selection", "disabledFeatures": ["informationGainSelection"], "purpose": "Compare information-guided selection with random selection under the same budget." },
+    { "id": "remove_event_key_matching", "disabledFeatures": ["matchedEventKeys"], "purpose": "Measure the effect of removing matched exogenous event draws." },
+    { "id": "disable_transplant_delay", "disabledFeatures": ["transplantAndDelayOperations"], "purpose": "Measure the value of transplant and delay intervention types." },
+    { "id": "disable_transfer_context", "disabledFeatures": ["transferContextEvaluation"], "purpose": "Measure the value of evaluation under a changed task context." },
+    { "id": "no_grammar_mutation_equal_compute", "disabledFeatures": ["grammarMutation"], "purpose": "Compare a frozen grammar with matched candidate-search compute." },
+    { "id": "disable_null_audit", "disabledFeatures": ["nullAudit"], "purpose": "Exploratory-only negative control; cannot support confirmatory claims." }
+  ]
+}
